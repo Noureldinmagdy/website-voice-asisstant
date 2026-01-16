@@ -1,0 +1,86 @@
+{
+    "flows": [
+        {
+            "steps": [
+                {
+                    "step_type": "input",
+                    "x_path": "//input[@id='username']",
+                    "desc": "username",
+                    "input_schema_def": {
+                        "username": {
+                            "type": "string",
+                            "min_length": 3
+                        }
+                    },
+                    "input_data": null
+                },
+                {
+                    "step_type": "input",
+                    "x_path": "//input[@id='password']",
+                    "desc": "password",
+                    "input_schema_def": {
+                        "password": {
+                            "type": "string",
+                            "min_length": 8
+                        }
+                    },
+                    "input_data": null
+                },
+                {
+                    "step_type": "left_click",
+                    "x_path": "//input[@id='sign_in']",
+                    "desc": "Left click on the element"
+                }
+            ],
+            "current_step_i": 0,
+            "desc": "login the user to the website",
+            "current_step": {
+                "step_type": "input",
+                "x_path": "//input[@id='username']",
+                "desc": "username"
+            }
+        }
+    ],
+    "current_flow_i": 0,
+    "current_flow": {
+        "steps": [
+            {
+                "step_type": "input",
+                "x_path": "//input[@id='username']",
+                "desc": "username",
+                "input_schema_def": {
+                    "username": {
+                        "type": "string",
+                        "min_length": 3
+                    }
+                },
+                "input_data": null
+            },
+            {
+                "step_type": "input",
+                "x_path": "//input[@id='password']",
+                "desc": "password",
+                "input_schema_def": {
+                    "password": {
+                        "type": "string",
+                        "min_length": 8
+                    }
+                },
+                "input_data": null
+            },
+            {
+                "step_type": "left_click",
+                "x_path": "//input[@id='sign_in']",
+                "desc": "Left click on the element"
+            }
+        ],
+        "current_step_i": 0,
+        "desc": "login the user to the website",
+        "current_step": {
+            "step_type": "input",
+            "x_path": "//input[@id='username']",
+            "desc": "username"
+        }
+    },
+    "flows_desciption": "flow 0 => login the user to the website"
+}
